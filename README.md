@@ -8,15 +8,15 @@ But For this study we are more focused on the binary classification so, we have 
 ![alttext](https://github.com/LokeshSaipureddi/Diabetic_retinopathy/blob/main/Screenshot%202022-02-08%20142456.png)
 ### Image preprocessing
   To improve the performance of the model and remove overfitting image argumentation techniques like rescale, horizontal and vertical flip, horizontal and vertical shift and rotation. The images are converted into grayscale, then Fast NonLocal Means Denoising(fast NLMD) is applied to reduce noise in the image. Finally to improve the contrast of images a variant of adaptive histogram equalisation named  Contrast Limited Adaptive Histogram Equalisation (CLAHE) is applied.
-![alttext]()
+![alttext](https://github.com/LokeshSaipureddi/Diabetic_retinopathy/blob/main/Screenshot%202022-02-08%20142534.png)
 
 ### Proposed Architecture
  In the long history of deep learning, the convolutional neural networks have played a curtail role in the process of feature extraction. CNN has done an exceedingly good job for the process of image classification. Transfer learning accompanied with hyper parameter tuning, we have used Resnet50V2 ,InceptionV3, MobilenetV2 for the process of classification. Feature Pyramid Network (FPN)  was initially introduced in [12] for object detection and was used by M Rahimdeh et.al in [13] for the purpose of Image Classification
- ![alttext]()
+ ![alttext](https://github.com/LokeshSaipureddi/Diabetic_retinopathy/blob/main/Screenshot%202022-02-08%20142642.png)
  ### Results
  Table no 1: without Feature Pyramid Network </br>
- ![alttext]()
+ ![alttext](https://github.com/LokeshSaipureddi/Diabetic_retinopathy/blob/main/Screenshot%202022-02-08%20142829.png)
  Table no 2: with Feature Pyramid Network </br>
-  ![alttext]()
+  ![alttext](https://github.com/LokeshSaipureddi/Diabetic_retinopathy/blob/main/Screenshot%202022-02-08%20142849.png)
  Table no 3: Comparison with the Existing Approaches</br> 
-  ![alttext]()
+  ![alttext](https://github.com/LokeshSaipureddi/Diabetic_retinopathy/blob/main/Screenshot%202022-02-08%20142918.png)
