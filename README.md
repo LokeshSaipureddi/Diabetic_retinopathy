@@ -1,9 +1,9 @@
 ## Preliminary Diabetic Retinopathy Detection using Feature Pyramid Network
 ### Dataset
- In this study we have used Messidor-2( Methods to Evaluate Segmentation and Indexing Techniques in the field of Retinal Ophthalmology) dataset, which is a standard and publicly available dataset provided by ADCIS[10,11] and is imported from kaggle for this work. This dataset consists of 1742 high-resolution fundus eye images segregated into 5 classes by severity 0, 1, 2, 3, 4 and each class corresponds to no DR, mild DR, moderate DR, severe proliferative DR.
-Table 1: Table representing the number of images and their class before preprocessing
-
-Table 2 : Table representing the number of images and their class after preprocessing
+ In this study we have used Messidor-2( Methods to Evaluate Segmentation and Indexing Techniques in the field of Retinal Ophthalmology) dataset, which is a standard and publicly available dataset provided by ADCIS[10,11] and is imported from kaggle for this work. This dataset consists of 1742 high-resolution fundus eye images segregated into 5 classes by severity 0, 1, 2, 3, 4 and each class corresponds to no DR, mild DR, moderate DR, severe proliferative DR.</br>
+Table 1: Table representing the number of images and their class before preprocessing</br>
+![alttext](https://github.com/LokeshSaipureddi/Diabetic_retinopathy/blob/main/Screenshot%202022-02-08%20142427.png)</br>
+Table 2 : Table representing the number of images and their class after preprocessing</br>
 
 ### Image preprocessing
   To improve the performance of the model and remove overfitting image argumentation techniques like rescale, horizontal and vertical flip, horizontal and vertical shift and rotation. The images are converted into grayscale, then Fast NonLocal Means Denoising(fast NLMD) is applied to reduce noise in the image. Finally to improve the contrast of images a variant of adaptive histogram equalisation named  Contrast Limited Adaptive Histogram Equalisation (CLAHE) is applied.
