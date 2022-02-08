@@ -14,9 +14,10 @@ But For this study we are more focused on the binary classification so, we have 
  In the long history of deep learning, the convolutional neural networks have played a curtail role in the process of feature extraction. CNN has done an exceedingly good job for the process of image classification. Transfer learning accompanied with hyper parameter tuning, we have used Resnet50V2 ,InceptionV3, MobilenetV2 for the process of classification. Feature Pyramid Network (FPN)  was initially introduced in [12] for object detection and was used by M Rahimdeh et.al in [13] for the purpose of Image Classification
  ![alttext](https://github.com/LokeshSaipureddi/Diabetic_retinopathy/blob/main/Screenshot%202022-02-08%20142642.png)
  ### Results
+ From the above sections we can understand the need for appropriate features for prediction of diabetic retinopathy and in this section, we mainly concentrate on performance of our model on these images. We have used feature pyramid networks with inception V3, Resnet50V2, MobilenetV2 as backbone networks for prediction. Using transfer learning we are able to understand that InceptionV3 is able to produce good results when compared to other 2 learning models with precision of 75.18 percent, recall of 81.07 percent, specificity of 73.23 percent, area under curve of 83.01 percent. Once FPN is used the results of these transfer learning models have escalated.
  Table no 1: without Feature Pyramid Network </br>
- ![alttext](https://github.com/LokeshSaipureddi/Diabetic_retinopathy/blob/main/Screenshot%202022-02-08%20142829.png)
+ ![alttext](https://github.com/LokeshSaipureddi/Diabetic_retinopathy/blob/main/Screenshot%202022-02-08%20142829.png)</br>
  Table no 2: with Feature Pyramid Network </br>
-  ![alttext](https://github.com/LokeshSaipureddi/Diabetic_retinopathy/blob/main/Screenshot%202022-02-08%20142849.png)
+  ![alttext](https://github.com/LokeshSaipureddi/Diabetic_retinopathy/blob/main/Screenshot%202022-02-08%20142849.png)</br>
  Table no 3: Comparison with the Existing Approaches</br> 
-  ![alttext](https://github.com/LokeshSaipureddi/Diabetic_retinopathy/blob/main/Screenshot%202022-02-08%20142918.png)
+  ![alttext](https://github.com/LokeshSaipureddi/Diabetic_retinopathy/blob/main/Screenshot%202022-02-08%20142918.png)</br>
