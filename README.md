@@ -5,7 +5,7 @@ Table 1: Table representing the number of images and their class before preproce
 ![alttext](https://github.com/LokeshSaipureddi/Diabetic_retinopathy/blob/main/Screenshot%202022-02-08%20142427.png)</br>
 Table 2 : Table representing the number of images and their class after preprocessing</br>
 But For this study we are more focused on the binary classification so, we have combined images under classes 1, 2, 3, 4 and made it into a single class depicting the presence of DR while class 0 depicts images with No DR paving a way to have a binary classification.</br>
-![alttext]()
+![alttext](https://github.com/LokeshSaipureddi/Diabetic_retinopathy/blob/main/Screenshot%202022-02-08%20142456.png)
 ### Image preprocessing
   To improve the performance of the model and remove overfitting image argumentation techniques like rescale, horizontal and vertical flip, horizontal and vertical shift and rotation. The images are converted into grayscale, then Fast NonLocal Means Denoising(fast NLMD) is applied to reduce noise in the image. Finally to improve the contrast of images a variant of adaptive histogram equalisation named  Contrast Limited Adaptive Histogram Equalisation (CLAHE) is applied.
 ![alttext]()
